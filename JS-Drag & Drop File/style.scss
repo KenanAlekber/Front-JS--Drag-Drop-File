@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    width: 45%;
+    height: 450px;
+    margin-top: 5%;
+
+    #form {
+        border: 2px dashed rgb(136, 56, 255);
+        border-radius: 40px;
+        margin: 5% 5% 0;
+        height: 250px;
+
+        .icon {
+            margin-left: 44%;
+            margin-top: 2%;
+            font-size: 70px;
+        }
+
+        .texts {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+
+            b span {
+                color: rgb(136, 56, 255);
+
+            }
+
+
+            p {
+                font-size: 20px;
+
+                a {
+                    color: rgb(136, 56, 255);
+                }
+            }
+        }
+
+    }
+
+    input {
+        display: none;
+    }
+
+    .uploadbtn {
+        margin-top: 14%;
+        margin-left: 40%;
+        padding: 10px 50px;
+        background-color: rgb(136, 56, 255);
+        color: white;
+        border-radius: 15px;
+        border: none;
+        cursor: pointer;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: blue;
+
+        }
+    }
+
+    .image {
+        display: flex;
+        margin-top: 2%;
+
+        .picture {
+            width: 25%;
+        }
+
+        .name-size {
+
+            .imgName {
+                display: flex;
+                margin-top: 15%;
+                line-height: 30px;
+            }
+        }
+
+    }
+
+    .removeButton {
+        display: none;
+        margin-left: 90%;
+        margin-top: -8%;
+
+        .remove:hover {
+            color: white;
+            background-color: red;
+            cursor: pointer;
+        }
+    }
+}
